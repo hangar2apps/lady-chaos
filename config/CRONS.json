@@ -1,0 +1,16 @@
+[
+  {
+    "name": "reminder-check",
+    "schedule": "* * * * *",
+    "type": "command",
+    "command": "/mnt/usb/lady-chaos/lib/reminder-check.sh",
+    "enabled": true
+  },
+  {
+    "name": "morning-briefing",
+    "schedule": "0 8 * * *",
+    "type": "command",
+    "command": "/mnt/usb/lady-chaos/lib/cron-prompt.sh \"Good morning girl! Check the weather and give her a fun morning briefing. Keep it short and in character.\"",
+    "enabled": true
+  }
+]
