@@ -4,7 +4,7 @@
 DATETIME=$(date "+%A, %B %d, %Y at %I:%M %p %Z")
 PROMPT="[Current date/time: ${DATETIME}] $1"
 
-source /mnt/usb/lady-chaos/.env
+source /home/pollen/lady-chaos/.env
 
 BODY="{
   \"update_id\": $(date +%s),

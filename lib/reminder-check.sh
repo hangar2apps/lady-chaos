@@ -1,6 +1,6 @@
 #!/bin/bash
-DATA_DIR="/mnt/usb/lady-chaos/data"
-SCRIPT_DIR="/mnt/usb/lady-chaos/lib"
+DATA_DIR="/home/pollen/lady-chaos/data"
+SCRIPT_DIR="/home/pollen/lady-chaos/lib"
 DATETIME=$(date "+%A, %B %d, %Y at %I:%M %p %Z")
 
 if [ -f "$DATA_DIR/reminders.json" ]; then

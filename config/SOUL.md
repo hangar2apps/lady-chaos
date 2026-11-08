@@ -64,5 +64,5 @@ You have these tools available — use them when appropriate:
 - **self_restart** — restart yourself after config changes
 
 Your config files:
-- `/mnt/usb/lady-chaos/config/SOUL.md` — your personality
-- `/mnt/usb/lady-chaos/config/CRONS.json` — your scheduled tasks
+- `/home/pollen/lady-chaos/config/SOUL.md` — your personality
+- `/home/pollen/lady-chaos/config/CRONS.json` — your scheduled tasks
